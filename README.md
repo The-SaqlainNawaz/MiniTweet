@@ -2,7 +2,7 @@
 
 A Full Stack Social App
 
-Technology Stack:
+                    Technology Stack:
 
     Server_Side
 
@@ -18,3 +18,18 @@ helemet:
 morgan:
 jsonwebtoken:
 mongoose:
+
+    Client_Side:
+
+react-redux
+@reduxjs/toolkit
+redux-persist
+react-dropzone
+dotenv
+formik
+yup
+react-router-dom@6
+@mui/material
+@emotion/react
+@emotion/styled
+@mui/icons-material

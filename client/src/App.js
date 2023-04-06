@@ -7,17 +7,28 @@ import {
 import HomePage from "pages/homePage";
 import LoginPage from "pages/loginPage";
 import ProfilePage from "pages/profilePage";
+import { useMemo } from "react";
+import { useSelector } from "react-redux";
+import { CssBaseline, ThemeProvider } from "@mui/material";
+import { createTheme } from "@mui/material/styles";
+import { themeSettings } from "theme";
 
 function App() {
+  const mode = useSelector((state) => state.mode);
+  const theme = useMemo(() => createTheme(themeSettings[mode]), [mode]);
+
   return (
     <div className="app">
       <Router>
-        <Routes>
-          <Route path="/" element={<LoginPage />} />
-          <Route path="/home" element={<HomePage />} />
-          <Route path="/profile/:userId" element={<ProfilePage />} />
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          <Routes>
+            <Route path="/" element={<LoginPage />} />
+            <Route path="/home" element={<HomePage />} />
+            <Route path="/profile/:userId" element={<ProfilePage />} />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+        </ThemeProvider>
       </Router>
     </div>
   );

@@ -8,6 +8,7 @@ import morgan from "morgan";
 import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
+import { register } from "./controllers/auth.js";
 
 //CONFIGURATIOM//
 
@@ -38,6 +39,9 @@ const storage = multer.diskStorage({
 
 /* uplaod images*/
 const upload = multer({ storage });
+
+/* Routes */
+app.use("/auth/register", upload.single("image"), register);
 
 /*MongoDB Connection*/
 

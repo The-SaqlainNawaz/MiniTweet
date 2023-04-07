@@ -14,6 +14,7 @@
 - Dark and Light Mode
 - Like and Dislike Post
 ## Demo
+- If it's not appear yet it is loading wait..
 - ![MiniTweet](https://user-images.githubusercontent.com/81869501/230585461-9ba7dc11-df3b-441b-801a-becd227719d8.gif)
 
 

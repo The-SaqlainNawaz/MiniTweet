@@ -13,10 +13,14 @@
 - View Profile
 - Dark and Light Mode
 - Like and Dislike Post
+## Demo
+- ![MiniTweet](https://user-images.githubusercontent.com/81869501/230585461-9ba7dc11-df3b-441b-801a-becd227719d8.gif)
+
+
 
 ## Installation
 1. Clone the repository: `https://github.com/The-SaqlainNawaz/MiniTweet.git`
-2. Install dependencies: `npm install`/'yarn install' on both server nad clinet
+2. Install dependencies: `npm install`/'yarn install' on both server and clinet
 3. Set up environment variables:
    - Create `.env`
    - Add your own values for the environment variables(PORT MONGOOSE_URL JWT_TOKEN)

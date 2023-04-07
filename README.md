@@ -13,7 +13,6 @@
 - View Profile
 - Dark and Light Mode
 - Like and Dislike Post
-- 
 
 ## Installation
 1. Clone the repository: `https://github.com/The-SaqlainNawaz/MiniTweet.git`

@@ -1,5 +1,38 @@
 <h1 align="center">MERN Stack E-commerce Application</h1>
 
+## Features
+- User authentication (Sign up, login, logout)
+- Posting
+- Add friends
+- View Profile
+- Dark and Light Mode
+- Like and Dislike Post
+- 
+
+## Installation
+1. Clone the repository: `https://github.com/The-SaqlainNawaz/MiniTweet.git`
+2. Install dependencies: `npm install`/'yarn install' on both server nad clinet
+3. Set up environment variables:
+   - Create `.env`
+   - Add your own values for the environment variables(PORT MONGOOSE_URL JWT_TOKEN)
+4. Run the development server: `yarn start`
+
+## Usage
+1. Visit http://localhost:3000 in your web browser
+2. Create an account or use the demo account:
+3. Login and Enjoy
+
+## Contributing
+Contributions are welcome! Please follow these guidelines:
+1. Fork the repository
+2. Create a new branch
+3. Make your changes and test them
+4. Submit a pull request to the `main` branch
+
+## Credits
+- Special Thanks to @ed-roh for awesome tutorial
+- https://www.youtube.com/watch?v=K8YELRmUb5o&t=11643s&ab_channel=EdRoh
+
 ## Client Side Dependencies
   - react-redux
 - @reduxjs/toolkit
@@ -28,40 +61,6 @@
 - jsonwebtoken
 - mongoose
  
-## Features
-- User authentication (Sign up, login, logout)
-- Product browsing and filtering
-- Shopping cart management
-- Checkout and payment processing
-- Order history tracking
-- Admin dashboard for managing products and orders
-
-## Installation
-1. Clone the repository: `git clone https://github.com/your-username/mern-ecommerce.git`
-2. Install dependencies: `npm install`
-3. Set up environment variables:
-   - Rename `.env.example` to `.env`
-   - Add your own values for the environment variables
-4. Run the development server: `npm run dev`
-
-## Usage
-1. Visit http://localhost:3000 in your web browser
-2. Create an account or use the demo account:
-   - Email: `user@example.com`
-   - Password: `password123`
-3. Browse the products, add them to your cart, and checkout
-
-## Contributing
-Contributions are welcome! Please follow these guidelines:
-1. Fork the repository
-2. Create a new branch
-3. Make your changes and test them
-4. Submit a pull request to the `main` branch
-
-## Credits
-- Stripe API: https://stripe.com/docs
-- Cloudinary API: https://cloudinary.com/documentation
-
 ## License
 This project is licensed under the MIT License.
 

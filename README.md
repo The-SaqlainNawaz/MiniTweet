@@ -1,4 +1,10 @@
-<h1 align="center">MERN Stack E-commerce Application</h1>
+<h1 align="center">MiniTweet</h1>
+
+## Techs
+- MonogoDB
+- Express
+- React
+- Node
 
 ## Features
 - User authentication (Sign up, login, logout)
